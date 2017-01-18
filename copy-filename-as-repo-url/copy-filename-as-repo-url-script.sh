@@ -1,10 +1,11 @@
-# see readme for how to install this
+# See README for instructions on how to install this
 
 for f in "$@"
 do
-    # retrieve just the last part of the full file path
-    b=$(basename -s $f)
+	# Retrieve just the last part of the full file path
+	b=$(basename -s $f)
 
-    # now copy it to the clipboard with the URL prefixed
-    echo "https://union.io/images/repo/$b" | pbcopy
+	# Copy it to the clipboard with the URL prefixed; Feel free to replace the URL with
+	# a custom one
+	echo "https://union.io/images/repo/$b" | pbcopy
 done

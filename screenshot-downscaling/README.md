@@ -1,5 +1,5 @@
-# Screenshot Downscaling
-This takes mimicks the OSX screenshot tool, but then saves a 1/2 resolution version, so you don't end up with HUGE retina-scale screenshots.
+#🗜 Screenshot Downscaling
+This mimics the native Mac screenshot tool, but then saves a ½-resolution version, so you don’t end up with _huge_ retina-scale screenshots.
 
 ## Instructions
 #### Create service
@@ -7,8 +7,8 @@ This takes mimicks the OSX screenshot tool, but then saves a 1/2 resolution vers
 - Select “Service” for the template of the new workflow
 - In the top of the right pane, select _Service receives *no input* in any application_
 - Drag action _Run Shell Script_ from the left pane into the workflow on the right pane
-- Leave Shell at its default `/bin/bash`, and replace the script with the one in this respository
-- `cmd+S` to save, name it something obvious
+- Leave Shell at its default `/bin/bash`, and replace the script with the one in this repository
+- `cmd+S` to save and name it something obvious
 
 #### Attach to keyboard shortcut
 - Open keyboard preferences, then shortcuts
@@ -18,4 +18,4 @@ This takes mimicks the OSX screenshot tool, but then saves a 1/2 resolution vers
 - Press `shift+cmd+5`, to set the screenshotter shortcut
 
 ## Bonus
-I set the path to save the screenshots as ~/Desktop/21-day-bin... See the `21-day-bin` folder for scripts to automatically clean out the folder every 21 days.
+I set the path to save the screenshots as `~/Desktop/21-day-bin`. See the [21-day-bin](https://github.com/i-a-n/mac-setup/tree/master/21-day-bin) folder for instructions on how to automatically clean out the folder every 21 days.
