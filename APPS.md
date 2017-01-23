@@ -1,5 +1,5 @@
 # Software to Install
-Here’s a table of the apps I need to install on a new Mac for it to be ready for doing dev stuff, roughly in order of descending importance.
+Here’s a table of the apps I need to install on a new Mac for it to be ready for doing dev stuff, roughly in descending order of importance.
 
 ###Apps
 | Name | Description | Price |
