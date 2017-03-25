@@ -1,4 +1,4 @@
-#🗑 21-day-bin Purge
+# 🗑 21-day-bin Purge
 I like to set up a script that automatically deletes anything more than 21 days old in a specific folder. This is helpful for keeping folders tidy that hold things like screenshots which are basically useless clutter after a few weeks.
 
 ## Setup
