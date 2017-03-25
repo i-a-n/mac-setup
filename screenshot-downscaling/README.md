@@ -1,4 +1,4 @@
-#🗜 Screenshot Downscaling
+# 🗜 Screenshot Downscaling
 This mimics the native Mac screenshot tool, but then saves a ½-resolution version, so you don’t end up with _huge_ retina-scale screenshots.
 
 ## Instructions
