@@ -1,27 +1,27 @@
 # https://github.com/i-a-n/mac-setup
 This is a collection of scripts and reference points for my personal OS X setup. Feel free to use. Here’s a summary of each tool:
 
-***
+* * *
 
-###📂 21-day-bin
+### 📂 21-day-bin
 Instructions and a shell script for creating a folder that auto-deletes files in it that are older than 21 days. Useful for storing screenshots and other temp files.
 
-###📂 background-images
+### 📂 background-images
 My personal color-coded background images. Four of them: one per each workspace.
 
-###📂 copy-filename-as-repo-url
+### 📂 copy-filename-as-repo-url
 This lets you right-click on an image file in Finder, and automatically copy it to your clipboard as it would appear in a URL for an image in my repo. Useful as a kind of personalized “Get Dropbox URL”.
 
-###📂 screenshot-downscaling
+### 📂 screenshot-downscaling
 Adds a shortcut for screenshotting: Saves the original size, and a half-size, to a folder on the desktop. Useful because retina-sized-screenshots are way too big.
 
-###🗒 APPS.md
+### 🗒 APPS.md
 A tabular list of the most useful software for priming a new Mac for web development. Also includes descriptions, prices, and a logical dock order for them.
 
-###🗒 README.md
-This very README file.
+### 🗒 README.md
+This very README file
 
-***
+* * *
 
 Copyright 2017 Ian Moersen
 

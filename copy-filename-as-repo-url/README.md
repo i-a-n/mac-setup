@@ -1,4 +1,4 @@
-#🖇 Copy Filename as Repo URL
+# 🖇 Copy Filename as Repo URL
 This lets you right-click on an image file in finder, and automatically copy it to your clipboard as `https://[path to my personal repo]/[filename]`.
 
 This is useful to me because I upload all my files to my personal repo, and have a copy of them locally also. So I can go through Finder, find an image, and then simply copy its public-facing URL to share places as text.

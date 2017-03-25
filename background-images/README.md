@@ -1,4 +1,4 @@
-#🖥 Background Images
+# 🖥 Background Images
 Highly-optimized, precision-crafted workspace visuals for four different spaces.
 
 …Whatever, they’re just stupid color-coded PNGs.
