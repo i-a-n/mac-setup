@@ -1,0 +1,108 @@
+"*":
+  "atom-beautify":
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css:
+      indent_comments: false
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      analytics: false
+      beautifyEntireFileOnSave: false
+    gherkin: {}
+    handlebars: {}
+    html: {}
+    jade: {}
+    java: {}
+    js:
+      break_chained_methods: true
+      indent_with_tabs: true
+    json: {}
+    jsx: {}
+    latex: {}
+    less: {}
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
+  "bracket-matcher":
+    autocompleteBrackets: false
+    autocompleteSmartQuotes: false
+    wrapSelectionsInBrackets: false
+  core:
+    disabledPackages: [
+      "background-tips"
+      "autocomplete-html"
+      "autocomplete-plus"
+    ]
+    ignoredNames: [
+      ".git"
+      ".svn"
+      ".DS_Store"
+    ]
+    packagesWithKeymapsDisabled: [
+      "tree-view"
+    ]
+    projectHome: "~/GitProjects/"
+    telemetryConsent: "no"
+    themes: [
+      "union-ui"
+      "union-syntax"
+    ]
+    titleBar: "custom"
+  editor:
+    fontFamily: "\"Source Code Pro\""
+    fontSize: 13
+    invisibles:
+      cr: " "
+      eol: " "
+      space: "—"
+      tab: " "
+    lineHeight: 1.4
+    preferredLineLength: 120
+    showInvisibles: true
+    softTabs: false
+    softWrap: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "bd91d6c6-b435-5dbd-be2d-9571a02e3520"
+  "markdown-preview":
+    liveUpdate: false
+    useGitHubStyle: true
+  metrics:
+    userId: "1b1506a2dabdf65ff0a87ef7b14f5ca823ec200e"
+  "release-notes":
+    viewedVersion: "0.69.0"
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    sortFoldersBeforeFiles: false
+  welcome:
+    showOnStartup: false

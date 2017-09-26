@@ -1,0 +1,5 @@
+[user]
+	name = Ian M
+	email = ian@union.io
+[credential]
+	helper = osxkeychain

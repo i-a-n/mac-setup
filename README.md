@@ -12,6 +12,9 @@ My personal color-coded background images. Four of them: one per each workspace.
 ### 📂 copy-filename-as-repo-url
 This lets you right-click on an image file in Finder, and automatically copy it to your clipboard as it would appear in a URL for an image in my repo. Useful as a kind of personalized “Get Dropbox URL”.
 
+### 📂 dotfiles
+Small but plucky collection of dotfiles, or _dotfile-like_ files (they might not necessarily be prefixed with a `.` and/or live in `~`).
+
 ### 📂 screenshot-downscaling
 Adds a shortcut for screenshotting: Saves the original size, and a half-size, to a folder on the desktop. Useful because retina-sized-screenshots are way too big.
 
