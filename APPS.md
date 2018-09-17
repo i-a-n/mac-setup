@@ -9,13 +9,11 @@ Firefox | Testing | Free
 Atom | Code editor | Free
 Dropbox | Virtual FS | Free
 iTerm | Terminal | Free
-Adobe Photoshop | Part of the Creative Cloud | $$$ (monthly)
-Adobe Illustrator | Part of the Creative Cloud | $$$ (monthly)
+Sketch | Mockups & design | $99
 Jumpcut | Clipboard history manager | Free
-Adium | IRC / Jabber / Chat client | Free
 Transmit | FTP / SFTP client | $34
 Slack | Proprietary chat client  | Free
-Git Tower | Git GUI | $79
+GitKraken | Git GUI | Free
 Spotify | Focus music | Free
 MacDown | Markdown editor (using that now) | Free
 
@@ -27,9 +25,7 @@ MacDown | Markdown editor (using that now) | Free
 1. iTerm
 1. Atom
 1. Slack
-1. Adium
-1. Photoshop
-1. Illustrator
-1. GitTower
+1. Sketch
+1. GitKraken
 1. MacDown
 1. Spotify
