@@ -1,0 +1,239 @@
+{
+    /* General window properties */
+    "workbench.colorTheme": "Red",
+    "workbench.enableExperiments": false,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+    "workbench.tips.enabled": false,
+    /* Editor styles */
+    "editor.fontFamily": "'Source Code Pro', monospaced",
+    "editor.fontSize": 13,
+    /* Editor behavior (mostly removing functionality) */
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
+    "editor.links": false,
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.occurrencesHighlight": false,
+    "editor.renderWhitespace": "boundary",
+    "editor.selectionHighlight": true,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.formatOnPaste": true,
+    "editor.lineHeight": 20,
+    "editor.renderLineHighlight": "all",
+    "editor.snippetSuggestions": "none",
+    "editor.lightbulb.enabled": false,
+    "editor.wordBasedSuggestions": false,
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.hover.enabled": true,
+    "editor.hover.delay": 1200,
+    "editor.hover.sticky": true,
+    "editor.parameterHints.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    /* General syntax rules */
+    "editor.tokenColorCustomizations": {
+        "comments": "#FFFFFF",
+        "functions": "#FFFAC4", // Pale yellow
+        "keywords": "#FCA02A", // Standard orange
+        "numbers": "#FCA02A",
+        "strings": "#FFDE16", // Bright yellow
+        "types": "#FCA02A",
+        "variables": "#FFFAC4",
+        /* Specific syntax rules and overrides */
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "support, variable.other, variable.other.property, keyword, meta.tag, entity, meta.tag entity, punctuation.section.embedded",
+                "settings": {
+                    "foreground": "#FCA02A",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "constant.language, variable.parameter, variable.language, constant.character, entity.name.tag, support.type.property-name.css, variable.scss, support.constant, storage.type, punctuation.definition.template-expression.end, punctuation.definition.template-expression.begin",
+                "settings": {
+                    "foreground": "#FFDE16",
+                    "fontStyle": "",
+                }
+            },
+            {
+                "scope": "entity.other.inherited-class",
+                "settings": {
+                    "foreground": "#FFFFFF",
+                    "fontStyle": "bold",
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        /* Basic colors */
+        "editor.background": "#7a3722", // Standard brown
+        "editor.foreground": "#FCA02A",
+        "foreground": "#FCA02A",
+        /* Editor, cursor, gutter*/
+        "editor.inactiveSelectionBackground": "#6C2502", // Vibrant brown
+        "editor.lineHighlightBackground": "#7f3a29", // Faded brown
+        "editor.selectionBackground": "#6C2502",
+        "editor.selectionHighlightBackground": "#6C2502",
+        "editorCursor.background": "#FCA02A",
+        "editorCursor.foreground": "#FCA02A",
+        "editorGutter.background": "#53230e", // Deep maroon
+        "editorIndentGuide.activeBackground": "#fdb85f31", // Faded pale brown
+        "editorIndentGuide.background": "#fdb85f31",
+        "editorLineNumber.activeForeground": "#FCA02A",
+        "editorLineNumber.foreground": "#fdb85f31",
+        "editorWhitespace.foreground": "#fdb85f31",
+        /* Borders + tabs */
+        "editorGroup.border": "#FDB85F31",
+        "editorGroup.dropBackground": "#53230e",
+        "editorGroup.emptyBackground": "#53230e",
+        "editorGroup.focusedEmptyBorder": "#FDB85F31",
+        "editorGroupHeader.noTabsBackground": "#53230e",
+        "editorGroupHeader.tabsBackground": "#53230e",
+        "editorGroupHeader.tabsBorder": "#FDB85F31",
+        "tab.activeBackground": "#53230e",
+        "tab.activeBorder": "#FDB85F31",
+        "tab.activeBorderTop": "#FDB85F31",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.border": "#FDB85F31",
+        "tab.hoverBackground": "#53230e",
+        "tab.hoverBorder": "#FDB85F31",
+        "tab.inactiveBackground": "#53230e",
+        "tab.inactiveForeground": "#fdb85f9f",
+        "tab.unfocusedActiveBorder": "#FDB85F31",
+        "tab.unfocusedActiveBorderTop": "#FDB85F31",
+        "tab.unfocusedActiveForeground": "#FCA02A",
+        "tab.unfocusedHoverBackground": "#53230e",
+        "tab.unfocusedHoverBorder": "#FDB85F31",
+        "tab.unfocusedInactiveForeground": "#FCA02A",
+        /* Activity bar */
+        "activityBar.background": "#53230e",
+        "activityBar.foreground": "#ffffff",
+        /* Badges, buttons, dropdowns */
+        "badge.background": "#fdb85f31",
+        "badge.foreground": "#FFFFFF",
+        "button.background": "#6C2502",
+        "button.foreground": "#FFF",
+        "button.hoverBackground": "#FDB85F31",
+        "descriptionForeground": "#FDB85F31",
+        "dropdown.background": "#6C2502",
+        "dropdown.border": "#7a3722",
+        "dropdown.foreground": "#ffffff",
+        "dropdown.listBackground": "#7a3722",
+        "input.background": "#53230e",
+        "input.border": "#7a3722",
+        "input.foreground": "#fca02a",
+        "input.placeholderForeground": "#fdb85f31",
+        "inputOption.activeBorder": "#ffffff",
+        /* Go on, GIT */
+        // "gitDecoration.addedResourceForeground": "#cccccc",
+        // "gitDecoration.conflictingResourceForeground": "#cccccc",
+        // "gitDecoration.deletedResourceForeground": "#cccccc",
+        // "gitDecoration.ignoredResourceForeground": "#cccccc",
+        // "gitDecoration.modifiedResourceForeground": "#cccccc",
+        // "gitDecoration.submoduleResourceForeground": "#cccccc",
+        // "gitDecoration.untrackedResourceForeground": "#cccccc",
+        /* Lists (file view) and scrollbar */
+        "list.activeSelectionBackground": "#7a3722",
+        "list.activeSelectionForeground": "#FFF",
+        "list.errorForeground": "#FCA02A",
+        "list.focusForeground": "#f2c3af",
+        "list.highlightForeground": "#FFF",
+        "list.hoverBackground": "#7a3722",
+        "list.hoverForeground": "#fff",
+        "list.inactiveSelectionBackground": "#7a3722",
+        "list.inactiveSelectionForeground": "#f2c3af",
+        "list.warningForeground": "#FCA02A",
+        "scrollbar.shadow": "#6C2502",
+        "scrollbarSlider.activeBackground": "#fdb85f31",
+        "scrollbarSlider.background": "#fdb85f31",
+        "scrollbarSlider.hoverBackground": "#53230e",
+        /* Menu, sidebar */
+        "menu.background": "#7a3722",
+        "menu.selectionBackground": "#7a3722",
+        "menubar.selectionBackground": "#83321a",
+        "sideBar.background": "#491B01", // Very deep maroon
+        "sideBar.border": "#fdb85f31",
+        "sideBar.dropBackground": "#83321a",
+        "sideBar.foreground": "#f2c3af",
+        "sideBarSectionHeader.background": "#83321a",
+        "sideBarSectionHeader.border": "#fdb85f31",
+        "sideBarSectionHeader.foreground": "#ffffff",
+        "sideBarTitle.foreground": "#ffffff",
+        /* Title bar */
+        "titleBar.activeBackground": "#53230e",
+        "titleBar.activeForeground": "#FFFFFF",
+        "titleBar.border": "#83321a",
+        "titleBar.inactiveBackground": "#FDB85F31",
+        "titleBar.inactiveForeground": "#FFFFFF",
+        /* Misc */
+        "progressBar.background": "#fdb85f31",
+        "selection.background": "#53230e",
+        "textLink.foreground": "#FFF",
+    },
+    /* Extensions: */
+    "atomKeymap.promptV3Features": true,
+    "importCost.debug": true,
+    "importCost.smallPackageColor": "#B8948B",
+    "importCost.mediumPackageColor": "#B8948B",
+    "importCost.largePackageColor": "#ffffff",
+    /* Javascript behavior */
+    "javascript.suggest.names": false,
+    "javascript.suggest.enabled": false,
+    "javascript.format.enable": false,
+    "javascript.autoClosingTags": false,
+    "javascript.format.insertSpaceAfterCommaDelimiter": false,
+    /* Other behavior */
+    "html.suggest.html5": false,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": false
+        },
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "emmet.showSuggestionsAsSnippets": false,
+    "files.insertFinalNewline": true,
+    "typescript.format.enable": true,
+    "editor.dragAndDrop": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "workbench.sideBar.location": "right",
+    "html.autoClosingTags": false,
+    "typescript.autoClosingTags": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.associations": {
+        "*.tsx": "typescriptreact"
+    },
+    "prettier.configPath": "/Users/ian/Projects/dev/dream-machine/.prettierrc",
+    "prettier.prettierPath": "/Users/ian/Projects/dev/dream-machine/node_modules/prettier",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+    "terminal.integrated.tabs.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "workbench.editor.untitled.labelFormat": "name",
+    "workbench.editor.decorations.colors": false,
+    "http.proxyAuthorization": null
+}
