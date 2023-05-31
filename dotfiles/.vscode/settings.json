@@ -7,7 +7,7 @@
     "workbench.statusBar.feedback.visible": false,
     "workbench.tips.enabled": false,
     /* Editor styles */
-    "editor.fontFamily": "'Source Code Pro', monospaced",
+    "editor.fontFamily": "'IntelOne mono', 'Source Code Pro', monospaced",
     "editor.fontSize": 13,
     /* Editor behavior (mostly removing functionality) */
     "editor.autoClosingBrackets": "never",
@@ -22,7 +22,7 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "editor.formatOnPaste": true,
-    "editor.lineHeight": 20,
+    "editor.lineHeight": 21,
     "editor.renderLineHighlight": "all",
     "editor.snippetSuggestions": "none",
     "editor.lightbulb.enabled": false,
@@ -214,14 +214,13 @@
     "workbench.sideBar.location": "right",
     "html.autoClosingTags": false,
     "typescript.autoClosingTags": false,
-    "diffEditor.ignoreTrimWhitespace": true,
     "[typescriptreact]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "files.associations": {
         "*.tsx": "typescriptreact"
     },
-    "prettier.configPath": "/Users/ian/Projects/dev/dream-machine/.prettierrc",
+    "prettier.configPath": "/Users/ian/dev/dream-machine/.prettierrc.yml",
     "prettier.prettierPath": "/Users/ian/Projects/dev/dream-machine/node_modules/prettier",
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -235,5 +234,9 @@
     "editor.inlineSuggest.enabled": true,
     "workbench.editor.untitled.labelFormat": "name",
     "workbench.editor.decorations.colors": false,
-    "http.proxyAuthorization": null
+    "http.proxyAuthorization": null,
+    "npm.enableRunFromFolder": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "githubPullRequests.commentExpandState": "collapseAll",
+    "editor.scrollbar.vertical": "visible",
 }
